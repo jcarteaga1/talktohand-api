@@ -103,7 +103,7 @@ sniffio==1.2.0
 sounddevice==0.4.4
 SoundFile==0.10.3.post1
 starlette==0.19.1
-tensorboard==2.9.0
+tensorboard==2.8
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
 tensorflow==2.8.0
