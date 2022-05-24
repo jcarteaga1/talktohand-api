@@ -1,4 +1,4 @@
-absl-py==1.0.0
+absl-py==0.15.0
 anyio==3.6.1
 asgiref==3.5.2
 astunparse==1.6.3
