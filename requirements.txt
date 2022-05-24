@@ -68,7 +68,7 @@ opencv-python-headless==4.5.2.52
 opt-einsum==3.3.0
 orjson==3.6.8
 packaging==21.3
-pandas==1.4.2
+pandas==1.3.1
 Pillow==9.1.1
 pipreqs==0.4.11
 pooch==1.6.0
