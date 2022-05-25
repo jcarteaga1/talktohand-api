@@ -14,9 +14,9 @@ logging.set_verbosity(logging.ERROR)
 #to get the current working directory
 directory = os.getcwd()
 
-model_path = directory+'/model.tflite'
+model_path = directory+'/model2.tflite'
 
-classes = ['android', 'pig_android']
+classes = ['hola', 'mal', 'no', 'perfecto']
 # Define a list of colors for visualization
 COLORS = np.random.randint(0, 255, size=(len(classes), 3), dtype=np.uint8)
 
@@ -113,7 +113,7 @@ def run_odt_and_draw_results(image_path, interpreter, threshold=0.5):
 
 def run_detect_img(imgName):
     INPUT_IMAGE_URL = directory+'/'+imgName
-    DETECTION_THRESHOLD = 0.2
+    DETECTION_THRESHOLD = 0.1
 
     # Load the TFLite model
     interpreter = tf.lite.Interpreter(model_path=model_path)
