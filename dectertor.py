@@ -14,7 +14,7 @@ logging.set_verbosity(logging.ERROR)
 #to get the current working directory
 directory = os.getcwd()
 
-model_path = directory+'/model2.tflite'
+model_path = directory+'/model3.tflite'
 
 classes = ['hola', 'mal', 'no', 'perfecto']
 # Define a list of colors for visualization
