@@ -113,7 +113,7 @@ def run_odt_and_draw_results(image_path, interpreter, threshold=0.5):
 
 def run_detect_img(imgName):
     INPUT_IMAGE_URL = directory+'/'+imgName
-    DETECTION_THRESHOLD = 0.1
+    DETECTION_THRESHOLD = 0.3
 
     # Load the TFLite model
     interpreter = tf.lite.Interpreter(model_path=model_path)
