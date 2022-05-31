@@ -16,7 +16,7 @@ directory = os.getcwd()
 
 model_path = directory+'/model3.tflite'
 
-classes = ['hola', 'mal', 'no', 'perfecto']
+classes = ['adios','bien','mal','TeAmo']
 # Define a list of colors for visualization
 COLORS = np.random.randint(0, 255, size=(len(classes), 3), dtype=np.uint8)
 
